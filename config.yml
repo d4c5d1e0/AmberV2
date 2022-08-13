@@ -1,0 +1,33 @@
+---
+master: ''
+captcha_key: ''
+message_to_send: ''
+online_tokens: true
+captcha_service: 'anti-captcha'
+
+webhook:
+  link: ''
+  campaign: ''
+
+message_watcher:
+  enabled: true
+  mode: custom
+  author: '159985870458322944'
+  channel: '883682289463205910'
+
+react_watcher:
+  enabled: false
+  message_id: ''
+  emoji:
+  - name: ''
+    id: true
+
+join_watcher:
+  enabled: true
+  channel_id: '922448774427738134'
+  guild_id: '922448773735665674'
+
+large_guild:
+  is_large: false
+  channel_id: '922448774427738135'
+  guild_id: '922448773735665674'
